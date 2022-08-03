@@ -46,7 +46,7 @@ var onlyOneFruit = function(fruits, targetFruit) {
     if (fruit === targetFruit) {
       return fruit;
     }
-  })
+  });
 
 };
 
@@ -58,7 +58,7 @@ var startsWith = function(fruits, letter) {
     if (fruit[0] === letter) {
       return fruits;
     }
-  })
+  });
 
 };
 
@@ -68,7 +68,7 @@ var cookiesOnly = function(desserts) {
     if (dessert.type === 'cookie') {
       return dessert;
     }
-  })
+  });
 };
 
 /*
